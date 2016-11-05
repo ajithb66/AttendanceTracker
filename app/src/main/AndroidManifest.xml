@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beemathangarani.attendancetracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CreateAttActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LogActivity" />
+        <activity android:name=".TakeLogActivity" />
+        <activity android:name=".TakeAttendanceActivity" />
+        <activity android:name=".Home" />
+        <activity android:name=".AttendanceHome" />
+        <activity android:name=".LoginHome" />
+        <activity android:name=".UpdateAttendanceActivity" />
+        <activity android:name=".ViewAttendanceActivity" />
+        <activity android:name=".CreateAttendance" />
+        <activity android:name=".Attendance" />
+        <!-- android:parentActivityName=".AttendanceHome" > -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value="com.example.beemathangarani.attendancetracker.Attendance" /> -->
+        <!-- </activity> -->
+        <activity android:name=".ViewAtt"></activity>
+    </application>
+
+</manifest>

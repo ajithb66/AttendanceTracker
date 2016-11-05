@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context="com.example.beemathangarani.attendancetracker.RegisterActivity">
+
+    <!-- USERNAME -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+        android:text="@string/prompt_name"
+        style="@style/CategoryStyle" />
+
+        <EditText
+            style="@style/EditorFieldStyle"
+
+            android:layout_width="227dp"
+        android:id="@+id/UserName_editText" />
+    </LinearLayout>
+
+    <!-- FIRST NAME -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/First_Name"
+            style="@style/CategoryStyle" />
+        <EditText
+            style="@style/EditorFieldStyle"
+
+        android:id="@+id/FirstName_editText"
+            android:layout_width="227dp" />
+    </LinearLayout>
+
+    <!-- LAST NAME -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/Last_Name"
+            style="@style/CategoryStyle" />
+    <EditText
+        style="@style/EditorFieldStyle"
+
+        android:id="@+id/LastName_editText"
+        android:layout_width="227dp" />
+        </LinearLayout>
+
+    <!-- PASSWORD -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/prompt_password"
+            style="@style/CategoryStyle" />
+    <EditText
+        style="@style/EditorFieldStyle"
+        android:inputType="textPassword"
+
+        android:id="@+id/Password_editText"
+        android:layout_width="227dp" />
+        </LinearLayout>
+
+    <!-- CONFIRM PASSWORD -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/Confirm_Password"
+            style="@style/CategoryStyle" />
+    <EditText
+        style="@style/EditorFieldStyle"
+        android:inputType="textPassword"
+
+        android:id="@+id/Confirm_Password_editText"
+        android:layout_width="227dp" />
+        </LinearLayout>
+
+    <!-- EMAIL -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/Email"
+            style="@style/CategoryStyle" />
+    <EditText
+        style="@style/EditorFieldStyle"
+        android:inputType="textEmailAddress"
+        android:id="@+id/Email_editText"
+        android:layout_width="227dp" />
+        </LinearLayout>
+
+    <!-- SIGN UP -->
+    <Button
+        style="@style/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SignUpButton"
+        android:background="@color/buttonColor"
+        android:text="@string/Register"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

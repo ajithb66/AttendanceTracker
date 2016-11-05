@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">AttendanceTracker</string>
+    <string name="Attendance">Attendance Tracker</string>
+    <string name="Go">Go</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Username</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="Att">Attendance</string>
+    <string name="Log">Log Records</string>
+    <string name="register">Don\'t have an account? Register</string>
+    <string name="title_activity_create_att">CreateAttActivity</string>
+    <string name="create">Create Attendance</string>
+    <string name="view">View Attendance</string>
+    <string name="take">Take Attendance</string>
+    <string name="update">Update Attendance</string>
+    <string name="log">Log Records</string>
+    <string name="exit">Exit</string>
+    <string name="Reset">Reset</string>
+    <string name="Email">Email</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="First_Name">First Name</string>
+    <string name="Register">Sign Up</string>
+    <string name="Create">Create</string>
+    <string name="Class">Class</string>
+    <string name="Subject">Subject</string>
+    <string name="Take_Log">Take Log</string>
+    <string name="Monthly">Monthly</string>
+    <string name="Log_Records">Log Records</string>
+    <string name="Daily">Daily</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_take_attendance">TakeAttendanceActivity</string>
+    <string name="add">Add</string>
+    <string name="done">Done</string>
+    <string name="Name">Name</string>
+    <string name="RollNo">RollNo</string>
+    <string name="save">Save</string>
+    <string name="date">Date</string>
+</resources>

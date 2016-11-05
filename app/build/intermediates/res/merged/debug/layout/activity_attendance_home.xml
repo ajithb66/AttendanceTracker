@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    tools:context="com.example.beemathangarani.attendancetracker.Home">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginRight="4.0dip"
+        android:layout_gravity="center">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/buttonColor"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        style="@style/buttonStyle"
+        android:text="@string/create"
+        android:id="@+id/createAttendance"
+        android:onClick="goToCreateAttendance" />
+
+    <Button
+
+        android:layout_width="200dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:background="@color/buttonColor"
+        style="@style/buttonStyle"
+        android:text="@string/take"
+        android:onClick="goToTakeAttendance"
+        android:id="@+id/TakeAttendance" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/buttonColor"
+            style="@style/buttonStyle"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:text="@string/update"
+            android:id="@+id/updateAttendance"
+            android:onClick="goToUpdateAttendance" />
+
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:background="@color/buttonColor"
+            style="@style/buttonStyle"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:text="@string/view"
+            android:onClick="goToViewAttendance"
+            android:id="@+id/ViewAttendance" />
+    </LinearLayout>
+</LinearLayout>
